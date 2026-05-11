@@ -1,6 +1,6 @@
 public class LeapYear {
     public static void main(String[] args) {
-        int year = 1900;
+        int year = 1928;
         boolean isLeap = false;
         if (year % 4 == 0) {
             if (year % 100 == 0) {
@@ -18,7 +18,7 @@ public class LeapYear {
         if (isLeap) {
             System.out.println("Rok " + year + " jest przestepny.");
         } else {
-            System.out.println("Rok " + year + " jest nie przestepny.");
+            System.out.println("Rok " + year + " nie jest przestepny.");
         }
     }
 }
