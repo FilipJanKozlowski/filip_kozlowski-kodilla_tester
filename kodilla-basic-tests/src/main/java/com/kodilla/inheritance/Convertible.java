@@ -10,6 +10,7 @@ public class Convertible extends Car {
         System.out.println("Closing roof...");
     }
 
+    @Override
     public void openDoors() {
         System.out.println("Opening 2 doors");
     }

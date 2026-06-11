@@ -1,4 +1,4 @@
-import java.util.Random;
+import java.util.Random; //Czy da się to zadanie wykonać bez importowania biblioteki?
 
 public class RandomNumbers {
     private int theSmallestNumber = 31;
