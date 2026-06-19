@@ -2,13 +2,15 @@ package com.kodilla.abstracts.homework;
 
 public class Application {
     public static void main(String[] args) {
-        // --- TESTOWANIE FIGUR ---
+
         Shape square = new Square(5.0);
-        System.out.println("Pole kwadratu: " + square.getSurfaceArea());
-        System.out.println("Obwod kwadratu: " + square.getPerimeter());
+        System.out.println("Kwadrat - Pole: " + square.getSurfaceArea() + ", Obwod: " + square.getPerimeter());
+
+        Shape rectangle = new Rectangle(4.0, 6.0);
+        System.out.println("Prostokat - Pole: " + rectangle.getSurfaceArea() + ", Obwod: " + rectangle.getPerimeter());
 
         Shape circle = new Circle(3.0);
-        System.out.println("Pole kola: " + circle.getSurfaceArea());
+        System.out.println("Kolo - Pole: " + circle.getSurfaceArea() + ", Obwod: " + circle.getPerimeter());
 
         System.out.println("-------------------------");
 
