@@ -14,6 +14,11 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    implementation 'com.google.guava:guava:31.1-jre'
+    implementation(group: 'com.github.lewka', name: 'ocular', version: '1.0.5'){
+        exclude group: "net.sf", module: "jargs"
+    }
 }
 
 test {
